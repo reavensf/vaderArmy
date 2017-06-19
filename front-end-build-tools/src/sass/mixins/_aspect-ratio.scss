@@ -1,7 +1,0 @@
-@mixin aspectRatio($width, $height){
-	&:before{
-		content:'';
-		display:block;
-		padding-top: ($height/$width) * 100%
-	}
-}
