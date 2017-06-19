@@ -1,0 +1,6 @@
+{
+	"preset":"idiomatic",
+	"validateQuoteMarks" : "'",
+	"requireDollarBeforejQueryAssignment": true,
+	"requireSpacesInsideBrackets": false
+}

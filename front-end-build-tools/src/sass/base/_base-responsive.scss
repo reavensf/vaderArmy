@@ -1,0 +1,29 @@
+@media screen and (max-width:$desktopMaxWidth){
+	.wrapper{
+		width: 92%;
+	}
+}
+
+@media screen and (max-width:$tabletMaxWidth){
+	
+}
+
+@media screen and (max-width:$mobileMaxWidth){
+	.desktop{
+		display: none;
+	}
+
+	.mobile{
+		display: block;
+	}
+
+	body{
+		padding: 0;
+	}
+	
+}
+
+
+@media screen and (max-width:$mobileMinWidth){
+	
+}

@@ -1,0 +1,43 @@
+// Typography
+///////////////////////////////////////////////////////////////////////////////
+$sans-serif: 'Helvetica';
+$serif: 'Georgia';
+
+$base-font-family: $sans-serif;
+$header-font-family: $base-font-family;
+
+// Sizes
+///////////////////////////////////////////////////////////////////////////////
+$base-font-size: 1em;
+$base-line-height: $base-font-size * 1.5;
+$base-border-radius: em(3);
+
+// Colors
+///////////////////////////////////////////////////////////////////////////////
+
+$offWhite: #f5f5f5;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #DDD;
+
+$orange: #d47600;
+
+// Body Color
+$base-body-color: white;
+$base-headline-color: ;
+
+//  Font Colors
+$base-font-color: $dark-gray;
+$base-accent-color: $orange;
+
+//  Text Link Colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 15);
+
+// Responsive
+///////////////////////////////////////////////////////////////////////////////
+$mobileMinWidth: 479px;
+$mobileMaxWidth: 767px;
+$tabletMinWidth: 768px;
+$tabletMaxWidth: 1024px;
+$desktopMaxWidth:1280px;

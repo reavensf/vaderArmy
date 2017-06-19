@@ -1,0 +1,68 @@
+.container-fluid{
+    margin: 0 auto;
+    width: 980px;
+}
+
+main{
+    background: #202024 url(../img/vadar-bkg.jpg) right top no-repeat; 
+    min-height: 665px;
+    padding-top: 125px;
+    -webkit-box-shadow: inset 0px -1px 26px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px -1px 26px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -1px 26px 0px rgba(0,0,0,0.75);
+    
+    #heroContent{
+        img{
+            margin: 0 auto 50px;
+        }
+
+        .successMessage{
+            display: none;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 1.5em;
+        }
+    }
+}
+
+.starsWrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width:$desktopMaxWidth){
+
+}
+
+@media screen and (max-width:$tabletMaxWidth){
+	main{
+        background-position-x: 120px;
+    }
+}
+
+@media screen and (max-width:$tabletMinWidth){
+	main{
+        background-position-x: 80px;
+    }
+}
+
+@media screen and (max-width:$mobileMaxWidth){
+    main{
+        background: #202024;
+        background: -moz-linear-gradient(-45deg, #202024 0%, #454b56 100%);
+        background: -webkit-linear-gradient(-45deg, #202024 0%,#454b56 100%);
+        background: linear-gradient(135deg, #202024 0%,#454b56 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202024', endColorstr='#454b56',GradientType=1 );
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+	.container-fluid{
+        width: 100%;
+    }	
+}
+
+
+@media screen and (max-width:$mobileMinWidth){
+	
+}

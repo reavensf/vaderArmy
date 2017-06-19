@@ -1,0 +1,52 @@
+#twoColumnContent{
+	#leftColumnContent{
+		
+
+		
+	}
+
+	#rightColumnContent{
+		
+	}
+}
+
+@media screen and (max-width:$desktopMaxWidth){
+	#twoColumnContent{
+		#leftColumnContent{
+
+
+		}
+
+		#rightColumnContent{
+			
+		}
+	}
+}
+
+@media screen and (max-width:$tabletMaxWidth){
+	#twoColumnContent{
+		#leftColumnContent{
+			
+
+		}
+
+		#rightColumnContent{
+
+		}
+	}
+}
+
+@media screen and (max-width:$tabletMinWidth){
+	#twoColumnContent{
+		#leftColumnContent{
+			
+
+		}
+	}
+}
+
+@media screen and (max-width:$mobileMaxWidth){
+	#twoColumnContent{
+		
+	}	
+}

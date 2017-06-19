@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Vader's Army</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="starsWrapper">        
+            <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars3'></div>
+            <main>
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <div id="heroContent" class="span5">
+                            <img src="img/logo.png" alt="" title="">
+                            <form id="vaderForm" class="span10" action="#">
+                                <ul>
+                                    <li>
+                                        <label for="Email">Email</label>
+                                        <input type="email" id="email" name="email" placeholder="Email">
+                                    </li>
+                                    <li>
+                                        <label for="zip">Zip Code</label>
+                                        <input type="text" name="zip" id="zip" placeholder="Zip Code" maxlength="5" pattern="[0-9]{5}">
+                                    </li>
+                                </ul>
+                                <input type="submit" value="Sign Up">
+                                <p class="emptyErrorMsg red">Please fill out the empty fields.</p>
+                            </form>
+                            <p class="successMessage">Thank you for your submission. Now, <br><span class="red">I am your Father!</span></p>
+                        </div><!-- end .span6 -->
+                    </div><!-- end #hero -->
+                </div><!-- end .container-fluid -->
+            </main>
+            <footer>
+                <div class="container-fluid">
+                    <div class="row-fluid">
+                        <a class="learnMore" href="#"> Learn More About Darth&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <div id="vaderFacts" class="span9">
+                            <h1>Darth Vader</h1>
+                            <p>Once a heroic Jedi Knight, Darth Vader was seduced by the dark side of the Force, became a Sith Lord, and led the Empire’s eradication of the Jedi Order. He remained in service of the Emperor -- the evil Darth Sidious -- for decades, enforcing his Master’s will and seeking to crush the fledgling Rebel Alliance. But there was still good in him…</p>
+                            <h2>Vader Is Born</h2>
+                            <p>Following a brutal battle with Obi-Wan Kenobi on Mustafar that nearly killed him, Vader is restored under the watchful eye of his new Master, Darth Sidious. Despairing over the loss of his wife, Vader becomes fully consumed by the dark side of the Force.</p>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <a class="socialLink facebook" href="http://facebook.com" target="_blank">F</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="socialLink twitter" href="http://twitter.com" target="_blank">L</a><br>
+                        <a href="#">Privacy Policy</a><br>
+                        <p class="paidFor">Paid For By Dart For Galactic Overlord</p>                    
+                    </div>
+                </div>
+            </footer><!-- end #footer -->
+        </div>
+        <!--Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

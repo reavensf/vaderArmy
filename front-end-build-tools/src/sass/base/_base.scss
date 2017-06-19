@@ -1,0 +1,231 @@
+/* =================================================================================
+~ Global
+================================================================================= */
+html {
+  font-size: 62.5%;
+  height: 100%;
+  // overflow: hidden;
+}
+body {
+  background: #19191c;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  text-align: center;
+  height: 100%;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+sup,
+small {
+  font-size: 65%;
+}
+a:active,
+a:focus {
+  outline: 0;
+}
+.hideScrollBar {
+  position: fixed;
+  overflow: hidden;
+}
+body.hideScrollBar {
+  width: 100%;
+}
+.iosBgNoScroll {
+  overflow: auto;
+  -webkit-touch-action:none;
+}
+@media screen and (max-width: 767px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+/* =================================================================================
+~ Typography
+================================================================================= */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1em;
+  margin: 0 0 10px 0;
+}
+
+h3,
+h4,
+h5,
+h6{
+  color: #333;
+  margin: 0;
+}
+
+h3{
+  margin-bottom: 10px;
+}
+p{
+  margin-top: 0;
+}
+a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: .4s ease-in-out;
+  -moz-transition: .4s ease-in-out;
+  -o-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:focus{
+  color: #fff;
+  text-decoration: none;
+}
+:focus {
+  outline: 0;
+}
+.inlineBlock {
+  display: inline-block;
+}
+/* =================================================================================
+Misc
+================================================================================= */
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+ul{
+  list-style-image: url('');
+
+  li{
+    margin-bottom: 10px;
+
+    ul{
+      list-style-image: url('');
+    }
+  }
+}
+sup,
+sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+.select2-container ul li{
+  margin-bottom:0;
+}
+
+/* =================================================================================
+Border-box box sizing for better layout styling
+================================================================================= */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* =================================================================================
+Forms
+================================================================================= */
+form {
+  display: block;
+}
+legend {
+  display: none;
+}
+label {
+  display: block;
+}
+/* =================================================================================
+Tables
+================================================================================= */
+table {
+  border: 0;
+  empty-cells: show;
+  font-size: 100%;
+}
+caption,
+th,
+td {
+  vertical-align: top;
+  text-align: left;
+  font-weight: normal;
+}
+/* =================================================================================
+Tools
+================================================================================= */
+.hide, .mobile {
+  display: none;
+}
+.float-left, .left {
+  float: left;
+}
+.float-right, .right {
+  float: right;
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+.text-align-center {
+  text-align: center;
+}
+.bold, .b {
+  font-weight: bold;
+}
+.italic, .i {
+  font-style: italic;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.red{
+  color: #c82d4e;
+}
+/* =================================================================================
+Layout
+================================================================================= */
+.wrapper {
+  margin: 0 auto;
+  width: 1810px;
+}
+.contentArea{
+  
+}
+

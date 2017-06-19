@@ -1,0 +1,124 @@
+/* =================================================================================
+~ Footer
+================================================================================= */
+footer{
+    padding: 34px;
+    
+    a:hover{
+        color: #fff;
+    }
+
+    .learnMore{
+        border: 2px solid #c82d4e;
+        border-radius: 100px;
+        display: inline-block;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 80px; 
+        padding: 20px 60px;
+
+        &:hover{
+            background-color: #c82d4e;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        i{
+            font-size: 25px;
+            -webkit-transition:  .4s ease-in-out;
+            -moz-transition: .4s ease-in-out;
+            -o-transition: .4s ease-in-out;
+            transition: .4s ease-in-out;
+        }
+
+        &.open{
+            background-color: #c82d4e;
+            color: #fff;
+            
+            i{
+                -webkit-transform:  rotate(180deg);
+                -moz-transform: rotate(180deg);
+                -o-transform: rotate(180deg);
+                -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    #vaderFacts{
+        float: none;
+        margin: 0 auto 40px;
+        max-height: 0px;
+        min-height: auto;
+        overflow: hidden;
+        text-align: left;
+        -webkit-transition:  .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+
+        &.open{
+            max-height: 900px
+        }
+
+        h1, h2{
+            font-size: 30px;
+        }
+
+        p{
+            font-size: 18px;
+            line-height: 1.5em;
+            margin-bottom: 40px;
+        }
+    }
+
+    .socialLink{
+        display: inline-block;
+        font-family: 'Socialico';
+        font-size: 50px;
+        margin-bottom: 30px;
+        text-decoration: none;
+
+        &.facebook:hover{
+            color: #3b5998;
+        }
+
+        &.twitter:hover{
+            color: #0084b4
+        }
+    }
+
+    .paidFor{
+        border: 1px solid #28282a;
+        color: #48484a;
+        display: inline-block;
+        font-weight: 600;
+        margin-top: 25px;
+        padding: 20px 40px;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width:$desktopMaxWidth){
+
+}
+
+@media screen and (max-width:$tabletMaxWidth){
+	footer{
+        .container-fluid{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:$mobileMaxWidth){
+	.container-fluid{
+        width: 100%;
+    }	
+}
+
+
+@media screen and (max-width:$mobileMinWidth){
+	
+}
